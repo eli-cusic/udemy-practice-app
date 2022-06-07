@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import Eli from './components/eli_components/Eli';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='person'>
+        <Eli />
+      </div>
+      <div className='person'>
+        Max
+      </div>
+      <div className='person'>
+        Jaen
+      </div>
+      <div className='person'>
+        Kenny
+      </div>
+      <div className='person'>
+        Laura
+      </div>
+      <div className='person'>
+        Graham
+      </div>
+      <div className='person'>
+        Eric
+      </div>
+      <div className='person'>
+        Jasmine
+      </div>
+      <div className='person'>
+        Dustin
+      </div>
+      <div className='person'>
+        Brady
+      </div>
     </div>
   );
 }
