@@ -1,6 +1,6 @@
 import './App.css';
 import Eli from './components/eli_components/Eli';
-import BradyCounter from './components/brady_components/BradyCounter';
+import BradyFactory from './components/brady_components/BradyFactory';
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
         Dustin
       </div>
       <div className='person'>
-        <BradyCounter></BradyCounter>
+        <BradyFactory></BradyFactory>
       </div>
     </div>
   );
