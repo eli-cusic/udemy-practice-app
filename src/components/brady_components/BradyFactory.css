@@ -16,6 +16,10 @@ button {
   background-color: lightcoral;
 }
 
+.emojis {
+  font-size: 75px;
+}
+
 .error {
   color: lightcoral;
   font-style: italic;

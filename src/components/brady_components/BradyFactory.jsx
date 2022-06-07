@@ -31,7 +31,7 @@ const BradyFactory = (props) => {
       <button className="clone" onClick={increment}>Clone Brady :)</button>
       <button className="destroy" onClick={decrement}>Destroy Brady :(</button>
       { displayError ? <Error /> : null }
-      <h1 className="emojis">{"\uD83D\uDE00".repeat(bradyCount)}</h1>
+      <p className="emojis">{"🕺".repeat(bradyCount)}</p>
     </div>
   );
 };
