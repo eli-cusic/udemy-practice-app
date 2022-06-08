@@ -3,6 +3,7 @@ import Eli from './components/eli_components/Eli';
 import BradyFactory from './components/brady_components/BradyFactory';
 import Laura from './components/laura_components/Laura'
 import Jasmine from './components/jasmine_components/Jasmine'
+import Jaen from './components/jaen_components/Jaen'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         Max
       </div>
       <div className='person'>
-        Jaen
+        <Jaen />
       </div>
       <div className='person'>
         Kenny
