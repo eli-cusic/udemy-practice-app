@@ -30,7 +30,7 @@ function App() {
         Eric
       </div>
       <div className='person'>
-        Jasmine
+        <Jasmine />
       </div>
       <div className='person'>
         Dustin
