@@ -1,6 +1,7 @@
 import './App.css';
 import Eli from './components/eli_components/Eli';
 import BradyFactory from './components/brady_components/BradyFactory';
+import Laura from './components/laura_components/Laura'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         Kenny
       </div>
       <div className='person'>
-        Laura
+        <Laura />
       </div>
       <div className='person'>
         Graham
