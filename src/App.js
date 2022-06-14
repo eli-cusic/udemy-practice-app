@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Eli from './components/eli_components/Eli';
 import BradyFactory from './components/brady_components/BradyFactory';

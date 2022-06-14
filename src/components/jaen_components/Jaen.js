@@ -1,4 +1,6 @@
+import React from 'react';
 import "./Jaen.css"
+
 function Jaen() {
   return(
     <div className="parent-div">

@@ -1,0 +1,61 @@
+.fabric-item {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #6d7279;
+}
+
+.fabric-item-color {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: center;
+  flex: 3;
+}
+
+.fabric-item h2 {
+  color: #3a3a3a;
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+}
+
+.fabric-item-amount {
+  align-items: flex-end;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  background-color: skyblue;
+  border: 1px solid white;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+.fabric-stash-title {
+  color: white;
+}
+
+@media (min-width: 580px) {
+  .fabric-item-color {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .fabric-item h2 {
+    font-size: 1.25rem;
+  }
+
+  .fabric-item-amount {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
