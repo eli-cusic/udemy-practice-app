@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title span {
+  color: #61dafb;
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.buttons button {
+  border: none;
+  border-radius: 20px;
+  color: #fefefe;
+  background-color: #61dafb;
+  padding: 0px 16px;
+  margin-inline-start: 8px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.react-logo {
+  height: 50px;
+  width: auto;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .react-logo {
+    animation: react-logo-spin infinite 5s linear;
+  }
+}
+
+@keyframes react-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
