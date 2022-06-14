@@ -1,5 +1,4 @@
 import FabricItem from './FabricItem';
-import BlueFabric from './BlueFabric';
 import Card from './Card';
 import './Card.css';
 import './Fabrics.css';
@@ -51,9 +50,6 @@ function JasFabrics() {
           amount={fabrics[3].amount}
           date={fabrics[3].date}
         />
-        {/* reusable more than once but displays the same data */}
-        {/* <FabricItem /> */}
-        <BlueFabric />
     </Card>
   );
 }
