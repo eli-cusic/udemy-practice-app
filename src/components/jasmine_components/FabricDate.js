@@ -1,4 +1,3 @@
-import React from 'react';
 import './FabricDate.css';
 import Card from './Card';
 

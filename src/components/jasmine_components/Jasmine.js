@@ -1,4 +1,3 @@
-import React from 'react';
 import FabricItem from './FabricItem';
 import BlueFabric from './BlueFabric';
 import Card from './Card';

@@ -1,4 +1,3 @@
-import React from 'react';
 import "./LauraTitle.css";
 
 function LauraTitle() {

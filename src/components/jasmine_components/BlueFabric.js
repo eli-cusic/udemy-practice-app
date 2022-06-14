@@ -1,4 +1,3 @@
-import React from 'react';
 import './BlueFabric.css';
 
 function BlueFabric() {

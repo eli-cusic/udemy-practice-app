@@ -1,4 +1,3 @@
-import React from 'react';
 import LauraTitle from "./LauraTitle";
 import LauraDesc from "./LauraDesc";
 

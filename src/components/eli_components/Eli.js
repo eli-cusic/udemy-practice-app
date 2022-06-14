@@ -1,4 +1,3 @@
-import React from 'react';
 import './Eli.css'
 import EliTitle from './EliTitle';
 import EliDescription from './EliDescription';
