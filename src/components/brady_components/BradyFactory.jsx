@@ -9,6 +9,7 @@ const BradyFactory = (props) => {
     setDisplayError(false);
     // This can cause issues... use the "function form" to use previous state
     // setBradyCount(bradyCount - 1);
+    // The set* function will receive the previous state snapshot
     setBradyCount((prevBradyCount) => {
       return prevBradyCount + 1;
     });
