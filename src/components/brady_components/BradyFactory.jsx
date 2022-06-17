@@ -7,7 +7,11 @@ const BradyFactory = (props) => {
 
   const increment = () => {
     setDisplayError(false);
-    setBradyCount(bradyCount + 1);
+    // This can cause issues... use the "function form" to use previous state
+    // setBradyCount(bradyCount - 1);
+    setBradyCount((prevBradyCount) => {
+      return prevBradyCount + 1;
+    });
   }
 
   const decrement = () => {
@@ -15,7 +19,9 @@ const BradyFactory = (props) => {
       setDisplayError(true)
       return
     }
-    setBradyCount(bradyCount - 1);
+    setBradyCount((prevBradyCount) => {
+      return prevBradyCount - 1;
+    });
   };
 
   const Error = () => {
